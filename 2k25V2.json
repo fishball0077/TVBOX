@@ -15,17 +15,26 @@
 	      {
   "key": "heimuer",
   "name": "🥇黑木耳",
-  "type": 1,
+  "type": 3,
   "api": "https://json02.heimuer.xyz/api.php/provide/vod",
-  "searchable": 1,
-  "filterable": 1,
-  "changeable": 1,
-  "timeout": 10,
-  "categories": [],
-  "header": {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+   "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
   }
 },
+
+	         {
+            "key": "小苹果弹幕",
+            "name": "小苹果｜弹幕",
+            "type": 3,
+            "api": "csp_Xpg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            }
+        },
 	    
 
 	      {
@@ -86,18 +95,7 @@
                 "danmu": true
             }
         },
-        {
-            "key": "小苹果弹幕",
-            "name": "小苹果｜弹幕",
-            "type": 3,
-            "api": "csp_Xpg",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
-        },
+   
 
 
    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////     
