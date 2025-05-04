@@ -11,7 +11,32 @@
             "api": "csp_Douban",
             "searchable": 0
         },
-        
+
+	      {
+  "key": "heimuer",
+  "name": "🥇黑木耳",
+  "type": 1,
+  "api": "https://json02.heimuer.xyz/api.php/provide/vod",
+  "searchable": 1,
+  "filterable": 1,
+  "changeable": 1,
+  "timeout": 10,
+  "categories": [],
+  "header": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+  }
+},
+	    
+
+	      {
+            "key": "荐片",
+            "name": "荐片｜磁力",
+            "api": "csp_Jianpian",
+            "type": 3,
+            "playerType": 1,
+            "ext": "http://api2.rinhome.com"
+        },
+	    
 
         {
             "key": "热播弹幕",
@@ -84,16 +109,7 @@
             "type": 3,
             "api": "csp_Qiyou"
         },
-        {
-            "key": "苹果影视",
-            "name": "小苹果｜影视",
-            "type": 3,
-            "api": "csp_LiteApple",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-       
+     
         {
             "key": "饺子影视",
             "name": "饺子｜影视",
@@ -177,20 +193,7 @@
         },
 
 	    
-      {
-  "key": "heimuer",
-  "name": "🥇黑木耳",
-  "type": 1,
-  "api": "https://json02.heimuer.xyz/api.php/provide/vod",
-  "searchable": 1,
-  "filterable": 1,
-  "changeable": 1,
-  "timeout": 10,
-  "categories": [],
-  "header": {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
-  }
-},
+    
           {
             "key": "星芽短剧",
             "name": "星芽｜短剧",
