@@ -804,14 +804,18 @@
             "filterable": 0
         },
 	    {
-  "key": "木耳",
+  "key": "heimuer",
   "name": "🥇黑木耳",
-  "type": 3,
-  "api": "https://ghproxy.net/https://raw.githubusercontent.com/bluefriendCN/bin/main/fan.txt",
+  "type": 1,
+  "api": "https://json02.heimuer.xyz/api.php/provide/vod",
   "searchable": 1,
-  "quickSearch": 0,
   "filterable": 1,
-  "ext": "https://json02.heimuer.xyz/api.php/provide/vod"
+  "changeable": 1,
+  "timeout": 10,
+  "categories": [],
+  "header": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+  }
 },
         {"key":"JRKAN直播","name":"⚽JRKAN直播","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/js/lib/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/js/JRKAN直播.js"},
         {"key":"88看球","name":"🏆🏆⚽88看球","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/js/lib/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/js/88看球.js"},
