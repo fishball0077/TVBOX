@@ -46,20 +46,6 @@
             "ext": "http://api2.rinhome.com"
         },
 	    
-
-        {
-            "key": "热播弹幕",
-            "name": "热播｜弹幕",
-            "type": 3,
-            "api": "csp_TianTian",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true,
-                "site": "aHR0cDovL3YucmJvdHYuY24="
-            }
-        },
         {
             "key": "浪酷弹幕",
             "name": "浪酷｜弹幕",
